@@ -1,13 +1,3 @@
-"""
-Script for converting from CSV file datafiles to a directory for each image (which is how it is loaded by MAML code)
-
-Acquire miniImagenet from Ravi & Larochelle '17, along with the train, val, and test CSV files. Put the
-CSV files in the miniImagenet directory and put the images in the directory 'miniImagenet/images/'.
-Then run this script from the miniImagenet directory:
-    cd data/miniImagenet/
-    python proc_images.py
-"""
-
 from __future__ import print_function
 import csv
 import glob
